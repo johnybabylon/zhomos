@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'inmails/index'
+
   resources :outmails
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -1,0 +1,12 @@
+<h1>Posts</h1>
+
+<% if @inmails.count > 0 %>
+    <% @inmails.each do |inmail| %>
+        <blockquote>
+          <p><%= inmail.body %></p>
+          <small><%= inmail.email %></small>
+        </blockquote>
+    <% end %>
+<% else %>
+    <p><em>Oops, doesn't look like there are any posts yet.</em></p>
+<% end %>
