@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'inmails/index'
 
-  #post '/email_processor' => 'griddler/emails#create', as: :email_processor
+  post '/email_processor' => 'griddler/emails#create', as: :email_processor
 
   mount_griddler
 

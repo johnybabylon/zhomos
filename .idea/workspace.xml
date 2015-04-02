@@ -29,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
+            <state line="17" column="22" selection-start="490" selection-end="490" vertical-scroll-proportion="0.58219177" vertical-offset="0" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
@@ -56,10 +56,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="email_processor.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="email_processor.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/email_processor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="3" selection-start="154" selection-end="154" vertical-scroll-proportion="0.30821916" vertical-offset="0" max-vertical-offset="438">
+            <state line="9" column="3" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="22" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
@@ -97,11 +106,11 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/initializers/griddler.rb" />
         <option value="$PROJECT_DIR$/app/models/email_processor.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/lib/email_processor.rb" />
         <option value="$PROJECT_DIR$/app/views/inmails/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -709,23 +718,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="25" selection-start="680" selection-end="680" vertical-scroll-proportion="-10.0" vertical-offset="495" max-vertical-offset="960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
@@ -760,7 +755,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/email_processor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="154" selection-end="154" vertical-scroll-proportion="0.30821916" vertical-offset="0" max-vertical-offset="438">
+        <state line="9" column="3" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="22" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="22" selection-start="490" selection-end="490" vertical-scroll-proportion="0.58219177" vertical-offset="0" max-vertical-offset="1110">
           <folding />
         </state>
       </provider>
