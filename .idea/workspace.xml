@@ -31,16 +31,16 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/outmails/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/inmails/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="9" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+            <state line="12" column="9" selection-start="326" selection-end="326" vertical-scroll-proportion="0.4347826" vertical-offset="0" max-vertical-offset="414">
               <folding />
             </state>
           </provider>
@@ -55,19 +55,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="22" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="870">
+            <state line="31" column="10" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="griddler.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="griddler.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/griddler.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.23972602" vertical-offset="0" max-vertical-offset="438">
+            <state line="7" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -95,11 +95,11 @@
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/models/email_processor.rb" />
         <option value="$PROJECT_DIR$/app/controllers/inmails_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/inmails/index.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/lib/email_processor.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/initializers/griddler.rb" />
+        <option value="$PROJECT_DIR$/app/views/inmails/index.html.erb" />
       </list>
     </option>
   </component>
@@ -183,7 +183,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -197,11 +197,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="initializers" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -537,11 +537,6 @@
         <state line="50" column="31" selection-start="712" selection-end="712" vertical-scroll-proportion="0.620438" vertical-offset="495" max-vertical-offset="960" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="10" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.8965517" vertical-offset="75" max-vertical-offset="1530" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="0.41379312" vertical-offset="30" max-vertical-offset="855" />
@@ -566,22 +561,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/inmail.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="438" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="438">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/inmails_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.17123288" vertical-offset="0" max-vertical-offset="438" />
+        <state line="5" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.17123288" vertical-offset="0" max-vertical-offset="438">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.2739726" vertical-offset="0" max-vertical-offset="1050" />
+        <state line="8" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.2739726" vertical-offset="0" max-vertical-offset="1050">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/inmails/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+        <state line="22" column="22" selection-start="589" selection-end="589" vertical-scroll-proportion="0.5294118" vertical-offset="105" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="10" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/griddler.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
@@ -593,16 +608,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/views/inmails/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/griddler.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.23972602" vertical-offset="0" max-vertical-offset="438">
+        <state line="12" column="9" selection-start="326" selection-end="326" vertical-scroll-proportion="0.4347826" vertical-offset="0" max-vertical-offset="414">
           <folding />
         </state>
       </provider>

@@ -1,12 +1,13 @@
-<h1>Inobox</h1>
+<h1>Inbox</h1>
 
 <% if @inmails.count > 0 %>
     <% @inmails.each do |inmail| %>
         <blockquote>
+          <small><%= inmail.from %></small>
+          <small><%= inmail.subject %></small>
           <p><%= inmail.body %></p>
-          <small><%= inmail.email %></small>
         </blockquote>
     <% end %>
 <% else %>
-    <p><em>Oops, you're mailbox is empty</em></p>
+    <p><em>your mailbox is empty</em></p>
 <% end %>
