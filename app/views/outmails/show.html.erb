@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>To:</strong>
+  <%= @outmail.to %>
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  <%= @outmail.subject %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @outmail.body %>
+</p>
+
+<%= link_to 'Edit', edit_outmail_path(@outmail) %> |
+<%= link_to 'Back', outmails_path %>

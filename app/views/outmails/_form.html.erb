@@ -1,0 +1,29 @@
+<%= form_for(@outmail) do |f| %>
+  <% if @outmail.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@outmail.errors.count, "error") %> prohibited this outmail from being saved:</h2>
+
+      <ul>
+      <% @outmail.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :to %><br>
+    <%= f.text_field :to %>
+  </div>
+  <div class="field">
+    <%= f.label :subject %><br>
+    <%= f.text_field :subject %>
+  </div>
+  <div class="field">
+    <%= f.label :body %><br>
+    <%= f.text_area :body %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

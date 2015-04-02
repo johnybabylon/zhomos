@@ -1,0 +1,2 @@
+module OutmailsHelper
+end
