@@ -44,10 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/inmails/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="9" selection-start="307" selection-end="307" vertical-scroll-proportion="0.39855072" vertical-offset="0" max-vertical-offset="414">
+            <state line="11" column="9" selection-start="307" selection-end="307" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="34" selection-start="334" selection-end="334" vertical-scroll-proportion="0.37671232" vertical-offset="0" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -693,13 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.34246576" vertical-offset="0" max-vertical-offset="1035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/email_processor.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="3" selection-start="116" selection-end="116" vertical-scroll-proportion="0.1369863" vertical-offset="0" max-vertical-offset="438">
@@ -709,7 +711,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/inmails/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="307" selection-end="307" vertical-scroll-proportion="0.39855072" vertical-offset="0" max-vertical-offset="414">
+        <state line="11" column="9" selection-start="307" selection-end="307" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="34" selection-start="334" selection-end="334" vertical-scroll-proportion="0.37671232" vertical-offset="0" max-vertical-offset="1035">
           <folding />
         </state>
       </provider>
