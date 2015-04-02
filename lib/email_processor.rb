@@ -1,20 +1,10 @@
 class EmailProcessor
 
-  def initialize(email)
-    @email = email
+  class EmailProcessor
+    def self.process(email)
+      Inmail.create!({ body: email.body, email: email.from })
+    end
   end
-
-  def process
-    # all of your application-specific code here - creating models,
-    # processing reports, etc
-
-    # Here's an example of model creation
-    Inmail.create!(
-        from: @email.from,
-        body: @email.body
-    )
-  end
-
 
 
 end

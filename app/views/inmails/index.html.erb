@@ -4,7 +4,6 @@
     <% @inmails.each do |inmail| %>
         <blockquote>
           <small><%= inmail.from %></small>
-          <small><%= inmail.subject %></small>
           <p><%= inmail.body %></p>
         </blockquote>
     <% end %>
