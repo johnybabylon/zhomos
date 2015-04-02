@@ -10,6 +10,7 @@ class EmailProcessor
 
     # Here's an example of model creation
     Inmail.create!(
+        from: @email.from,
         subject: @email.subject,
         body: @email.body
     )
