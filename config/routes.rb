@@ -7,6 +7,10 @@ Rails.application.routes.draw do
 
   resources :outmails
 
+
+
+  get "/email_processor", to: proc { [200, {}, ["OK"]] }, as: "mandrill_head_test_request"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
