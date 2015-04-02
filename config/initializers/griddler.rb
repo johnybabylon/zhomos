@@ -4,6 +4,4 @@ Griddler.configure do |config|
   config.reply_delimiter = '--reply above this line--'
   config.email_service = :mandrill
 
-
-
 end
