@@ -3,7 +3,7 @@
 <% if @inmails.count > 0 %>
     <% @inmails.each do |inmail| %>
         <blockquote>
-          <small><%= inmail.from %></small>
+          <small><%= inmail.email %></small>
           <p><%= inmail.body %></p>
         </blockquote>
     <% end %>
