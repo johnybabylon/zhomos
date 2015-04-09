@@ -32,19 +32,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/inmails/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="10" selection-start="1085" selection-end="1085" vertical-scroll-proportion="-37.5" vertical-offset="0" max-vertical-offset="1065">
+            <state line="31" column="39" selection-start="485" selection-end="485" vertical-scroll-proportion="-0.5345268" vertical-offset="674" max-vertical-offset="1065">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="email_processor.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="email_processor.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/email_processor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="32" selection-start="385" selection-end="385" vertical-scroll-proportion="0.7590361" vertical-offset="0" max-vertical-offset="480">
+            <state line="21" column="32" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -150,10 +150,10 @@
         <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/db/migrate/20150403072904_add_body_to_inmail.rb" />
-        <option value="$PROJECT_DIR$/app/views/inmails/index.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/inmails_controller.rb" />
         <option value="$PROJECT_DIR$/lib/email_processor.rb" />
+        <option value="$PROJECT_DIR$/app/views/inmails/index.html.erb" />
       </list>
     </option>
   </component>
@@ -891,16 +891,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/inmails/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/lib/email_processor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="10" selection-start="1085" selection-end="1085" vertical-scroll-proportion="-37.5" vertical-offset="0" max-vertical-offset="1065">
+        <state line="21" column="32" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/email_processor.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/inmails/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="32" selection-start="385" selection-end="385" vertical-scroll-proportion="0.7590361" vertical-offset="0" max-vertical-offset="480">
+        <state line="31" column="39" selection-start="485" selection-end="485" vertical-scroll-proportion="-0.5345268" vertical-offset="674" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
