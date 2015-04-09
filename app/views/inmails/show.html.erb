@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>To:</strong>
+  <%= @inmail.to %>
+</p>
+
+<p>
+  <strong>From:</strong>
+  <%= @inmail.from %>
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  <%= @inmail.subject %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @inmail.body %>
+</p>
+
+<p>
+  <strong>Headers:</strong>
+  <%= @inmail.headers %>
+</p>
+
+<%= link_to 'Edit', edit_inmail_path(@inmail) %> |
+<%= link_to 'Back', inmails_path %>
