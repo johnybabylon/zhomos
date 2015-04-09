@@ -1,4 +1,8 @@
 class InmailsController < ApplicationController
+
+  before_action :set_inmail, only: [:show, :edit, :update, :destroy]
+
+
   def index
     @inmails = Inmail.all
   end
@@ -11,6 +15,10 @@ class InmailsController < ApplicationController
     end
 
   end
+  
+  def update
+
+  end
 
   def show
 
@@ -19,12 +27,12 @@ class InmailsController < ApplicationController
 
   private
   # Use callbacks to share common setup or constraints between actions.
-  def set_outmail
-    @outmail = Outmail.find(params[:id])
+  def set_inmail
+    @inmail = Inmail.find(params[:id])
   end
 
   # Never trust parameters from the scary internet, only allow the white list through.
-  def outmail_params
-    params.require(:outmail).permit(:to, :subject, :body)
+  def inmail_params
+    params.require(:inmail).permit(:to, :subject, :body)
   end
 end
