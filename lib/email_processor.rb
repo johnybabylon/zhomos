@@ -19,7 +19,7 @@ class EmailProcessor
     attr_accessor :email
 
     def create_comment
-      Inmail.create(email: email.from, body: email.body)
+      Inmail.create(from: email.from, body: email.body)
     end
 
 
