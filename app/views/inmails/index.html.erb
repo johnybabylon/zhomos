@@ -1,12 +1,66 @@
 <h1>Inbox</h1>
 
 <% if @inmails.count > 0 %>
-    <% @inmails.each do |inmail| %>
-        <blockquote>
-          <small><%= inmail.email %></small>
-          <p><%= inmail.body %></p>
-        </blockquote>
-    <% end %>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+
+
+        <div class="col-md-3">
+
+        </div>
+
+
+
+
+
+
+        <div class="col-md-9">
+          <table class ='table table-responsive table-striped table-hover table-condensed'>
+            <thead>
+
+
+
+
+
+
+                <tr>
+
+                  <th>&nbsp &nbsp Name</th>
+                  <th>Message</th>
+                  <th>Date</th>
+                  <th colspan="3"></th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <% @inmails.each do |inmail| %>
+                    <tr>
+
+
+                      <td><%= inmail.email %></td>
+                      <td><%= inmail.body %></td>
+                      <td><%= link_to 'Show', inmail %></td>
+                      <td><%= link_to 'Destroy', inmail, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+
+                    </tr>
+
+
+                <% end %>
+                </tbody>
+
+
+
+
+
+            </table>
+
+        </div>
+        <!--Body content-->
+      </div>
+    </div>
+
+
 <% else %>
     <p><em>your mailbox is empty</em></p>
 <% end %>
