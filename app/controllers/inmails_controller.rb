@@ -6,7 +6,7 @@ class InmailsController < ApplicationController
   def destroy
     @inmail.destroy
     respond_to do |format|
-      format.html { redirect_to outmails_url, notice: 'Outmail was successfully destroyed.' }
+      format.html { redirect_to inmail_url, notice: 'Inmail was successfully destroyed.' }
       format.json { head :no_content }
     end
 
