@@ -62,7 +62,7 @@
       <file leaf-file-name="inmails_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/inmails_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="2" selection-start="373" selection-end="373" vertical-scroll-proportion="0.25301206" vertical-offset="150" max-vertical-offset="660">
+            <state line="19" column="0" selection-start="387" selection-end="387" vertical-scroll-proportion="0.39759037" vertical-offset="120" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -918,7 +918,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/inmails_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="2" selection-start="373" selection-end="373" vertical-scroll-proportion="0.25301206" vertical-offset="150" max-vertical-offset="660">
+        <state line="19" column="0" selection-start="387" selection-end="387" vertical-scroll-proportion="0.39759037" vertical-offset="120" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
