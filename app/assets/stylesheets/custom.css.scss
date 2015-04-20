@@ -17,12 +17,26 @@ textarea {
   resize: vertical;
 }
 
+@mixin box_sizing {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
+
 .center {
   text-align: center;
   h1 {
     margin-bottom: 10px;
   }
 }
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 
 #logo {
   float: left;
@@ -41,11 +55,38 @@ textarea {
 }
 
 
+.signup {
+  margin-bottom: 0px;
+  background-image: image_url('valley.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.5em 0.5em 0.5em;
+  text-align: center;
+
+  /* this is for jumbotron size!!! */
+  padding-top: 120px;
+  padding-bottom: 400px;
+}
+
+
+.contact {
+
+  background-image: image_url('sfnight.jpg');
+  padding-top: 100px;
+  padding-bottom: 320px;
+  background-position: 0% 50%;
+  margin: 0;
+
+
+}
+
 
 
 .jumbotron {
-  margin-bottom: 10px;
-  background-image: image_path('yak_hd.jpg');
+  margin-bottom: 0px;
+  background-image: image_url('yak_hd.jpg');
   background-position: 0% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -54,6 +95,21 @@ textarea {
   text-align: center;
 
   /* this is for jumbotron size!!! */
-  padding-top: 200px;
+  padding-top: 120px;
   padding-bottom: 320px; /* especially RIGHT HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+}
+
+
+/* forms */
+
+input, textarea, select, .uneditable-input {
+  border: 2px solid #bbb;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  @include box_sizing;
+}
+
+input {
+  height: auto !important;
 }

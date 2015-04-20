@@ -1,10 +1,10 @@
 class Emailer < ApplicationMailer
 
-  default from: 'notifications@example.com'
+  default from: 'zhomos.com'
 
   def deliver_email(outmail)
     @outmail = outmail
-    @url  = 'http://example.com/login'
+    @url  = 'http://zhomos.com'
     mail(to: @outmail.to, subject: @outmail.subject, body: @outmail.body)
   end
 

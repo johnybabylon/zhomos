@@ -1,7 +1,6 @@
 class OutmailsController < ApplicationController
   before_action :set_outmail, only: [:show, :edit, :update, :destroy]
 
-
   def home
 
   end
@@ -35,8 +34,8 @@ class OutmailsController < ApplicationController
     respond_to do |format|
       if @outmail.save
         Emailer.deliver_email(@outmail).deliver_now
-        format.html { redirect_to @outmail, notice: 'Outmail was successfully created.' }
-        format.json { render :show, status: :created, location: @outmail }
+        format.html { redirect_to inmails_path, notice: 'Outmail was successfully created.' }
+        format.json { render :show, status: :created, location: @inmail }
       else
         format.html { render :new }
         format.json { render json: @outmail.errors, status: :unprocessable_entity }

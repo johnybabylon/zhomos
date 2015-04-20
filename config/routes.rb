@@ -1,12 +1,20 @@
 Rails.application.routes.draw do
 
 
+  get    'login'   => 'sessions#new'
+  post   'login'   => 'sessions#create'
+  delete 'logout'  => 'sessions#destroy'
+
+  get    'signup'  => 'users#new'
+
+
   post '/email_processor' => 'griddler/emails#create', as: :email_processor
 
   #mount_griddler
 
   resources :outmails
   resources :inmails
+  resources :users
 
 
   #get "/email_processor", to: proc { [200, {}, ["OK"]] }, as: "mandrill_head_test_request"

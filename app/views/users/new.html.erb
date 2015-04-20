@@ -1,0 +1,49 @@
+<h3><%= link_to 'zəʊməʊ', root_path%></h3>
+
+
+<% provide(:title, 'Sign up') %><br>
+
+
+<h1>Sign up</h1>
+
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(@user) do |f| %>
+        <% if @user.errors.any? %>
+            <div id="error_explanation">
+              <h2><%= pluralize(@user.errors.count, "error") %> prohibited this User from being saved:</h2>
+
+              <ul>
+                <% @user.errors.full_messages.each do |message| %>
+                    <li><%= message %></li>
+                <% end %>
+              </ul>
+            </div>
+        <% end %>
+
+       <p></p>
+        <%= f.label :name %>
+        <%= f.text_field :name %>
+        <p></p>
+
+        <%= f.label :email %>
+        <%= f.email_field :email %>
+        <p></p>
+
+        <%= f.label :password %>
+        <%= f.password_field :password %>
+        <p></p>
+
+        <%= f.label :password_confirmation, "Confirmation" %>
+        <%= f.password_field :password_confirmation %>
+        <p></p>
+        <p></p>
+        <br>
+        <p></p>
+
+
+        <%= f.submit "Create my account", class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>

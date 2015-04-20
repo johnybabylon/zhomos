@@ -1,21 +1,29 @@
 
-<% if @inmails.count > 0 %>
 
     <div class="container-fluid">
       <div class="row-fluid">
+        <div class="col-md-2">
+          <%= button_to "New Email", new_outmail_path, :method => :get %>
 
+        </div>
 
-        <div class="col-md-3">
+        <div class="col-md-2">
+       <%= button_to "logout", logout_path, :method => :delete %>
 
+        </div>
+
+        <div class="col-md-1">
+          <p></p>
         </div>
 
 
 
 
+        <div class="col-md-8">
+          <% if @inmails.count > 0 %>
 
 
-        <div class="col-md-9">
-          <h1>Inbox</h1>
+        <h1>Inbox</h1>
 
           <table class ='table table-responsive table-striped table-hover table-condensed'>
             <thead>
@@ -51,7 +59,9 @@
                 </tbody>
 
 
-
+                     <% else %>
+                       <p><em>your mailbox is empty</em></p>
+                      <% end %>
 
 
             </table>
@@ -62,6 +72,3 @@
     </div>
 
 
-<% else %>
-    <p><em>your mailbox is empty</em></p>
-<% end %>

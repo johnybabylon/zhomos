@@ -133,10 +133,10 @@
           <a class="page-scroll" href="#page-top"></a>
         </li>
         <li>
-          <a class="page-scroll" href="#about">About</a>
+          <a class="page-scroll" href="#about">Sign Up</a>
         </li>
         <li>
-          <a class="page-scroll" href="#services">Services</a>
+          <a class="page-scroll" href="#services">Login</a>
         </li>
         <li>
           <a class="page-scroll" href="#contact">Contact</a>
@@ -154,6 +154,13 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
+          <p></p>
+          <br>
+          <p></p>
+          <br>
+          <p></p>
+
+
           <h1>zhomos.com</h1>
           <p>carry your email to the mountaintop</p>
           <!-- <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a> -->
@@ -163,16 +170,16 @@
   </div>
 </section>
 
-
-
-<!-- About Section -->
 <section id="about" class="about-section">
+  <div class="signup">                  <!-- this is the class that you use in your custom.css file to change the background -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
-        <h1>About Section</h1>
+      <div align="center"><div class="col-lg-12">
+        <button type="button" class="btn btn-primary btn-lg btn-block"><%= button_to "Sign up now!", signup_path, :method => :get %></button>
+      </div>
       </div>
     </div>
+  </div>
   </div>
 </section>
 
@@ -181,7 +188,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h1>Services Section</h1>
+        <h1><%= link_to 'Login', login_path %></h1>
       </div>
     </div>
   </div>
@@ -189,6 +196,7 @@
 
 <!-- Contact Section -->
 <section id="contact" class="contact-section">
+  <div class="contact">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
@@ -196,6 +204,7 @@
       </div>
     </div>
   </div>
+      </div>
 </section>
 
 <!-- jQuery -->
