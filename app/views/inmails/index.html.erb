@@ -44,9 +44,9 @@
 
                 <tbody>
                 <% @inmails.each do |inmail| %>
-                    <% if inmail.to == @current_user.zmail %>
                     <tr>
 
+                      <td><%= inmail.to %></td>
 
                       <td><%= inmail.from %></td>
                       <td><%= inmail.body %></td>
@@ -54,7 +54,7 @@
                       <td><%= link_to 'Destroy', inmail, method: :delete, data: { confirm: 'Are you sure?' } %></td>
 
                     </tr>
-                    <% end %>
+
 
 
                 <% end %>
