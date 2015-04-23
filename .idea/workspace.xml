@@ -33,10 +33,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/inmails/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="0" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.5916473" vertical-offset="615" max-vertical-offset="1230">
+            <state line="59" column="25" selection-start="1319" selection-end="1319" vertical-scroll-proportion="-11.875" vertical-offset="600" max-vertical-offset="1230">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="0" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0" vertical-offset="865" max-vertical-offset="1320">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inmails_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/inmails_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="12" selection-start="411" selection-end="411" vertical-scroll-proportion="0.5934066" vertical-offset="0" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
@@ -83,7 +101,6 @@
         <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/db/migrate/20150403072904_add_body_to_inmail.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/inmails_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150410091724_add_index_to_users_email.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -107,13 +124,14 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/mailers/emailer.rb" />
         <option value="$PROJECT_DIR$/app/controllers/outmails_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150420235746_add_zmail_to_users.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150421002020_add_z_to_users.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/lib/email_processor.rb" />
         <option value="$PROJECT_DIR$/app/views/inmails/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/inmails_controller.rb" />
       </list>
     </option>
   </component>
@@ -281,6 +299,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhomos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhomos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -838,11 +874,6 @@
         <state line="20" column="39" selection-start="334" selection-end="334" vertical-scroll-proportion="-1.7083334" vertical-offset="259" max-vertical-offset="585" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/inmails_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="660" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195" />
@@ -885,13 +916,6 @@
     <entry file="file://$PROJECT_DIR$/db/migrate/20150417085309_add_remember_digest_to_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.1736111" vertical-offset="0" max-vertical-offset="432">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="1.0879121" vertical-offset="0" max-vertical-offset="1350">
           <folding />
         </state>
       </provider>
@@ -943,7 +967,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/inmails/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.5916473" vertical-offset="615" max-vertical-offset="1230">
+        <state line="59" column="25" selection-start="1319" selection-end="1319" vertical-scroll-proportion="-11.875" vertical-offset="600" max-vertical-offset="1230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0" vertical-offset="865" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/inmails_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="12" selection-start="411" selection-end="411" vertical-scroll-proportion="0.5934066" vertical-offset="0" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
