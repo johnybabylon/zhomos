@@ -45,10 +45,7 @@
                 <tbody>
                 <% @inmails.each do |inmail| %>
 
-                    <% ar = inmail.to %>
-                    <% st = @current_user.zmail %>
-                    <% if ar.include?(st) %>
-
+                    <% if inmail.to.to_s.include?(@current_user.zmail) %>
                     <tr>
 
                       <td><%= inmail.to %></td>

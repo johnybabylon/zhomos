@@ -36,7 +36,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/inmails/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.85294116" vertical-offset="582" max-vertical-offset="1290">
+            <state line="60" column="25" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.8897059" vertical-offset="537" max-vertical-offset="1245">
               <folding />
             </state>
           </provider>
@@ -1038,7 +1038,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/inmails/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.85294116" vertical-offset="582" max-vertical-offset="1290">
+        <state line="60" column="25" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.8897059" vertical-offset="537" max-vertical-offset="1245">
           <folding />
         </state>
       </provider>
