@@ -20,7 +20,7 @@ class EmailProcessor
 
     def create_comment
 
-      user = User.find_by_zmail(@email.to[:zmail])
+      user = User.find_by zmail: @email.to
       if user.zmail == @email.to
       Inmail.create(from: email.from, body: email.body)
         end
