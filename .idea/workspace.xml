@@ -45,7 +45,7 @@
       <file leaf-file-name="email_processor.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/email_processor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="43" selection-start="397" selection-end="397" vertical-scroll-proportion="0.72527474" vertical-offset="0" max-vertical-offset="555">
+            <state line="14" column="20" selection-start="282" selection-end="282" vertical-scroll-proportion="0.46153846" vertical-offset="0" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
@@ -934,7 +934,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/email_processor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="43" selection-start="397" selection-end="397" vertical-scroll-proportion="0.72527474" vertical-offset="0" max-vertical-offset="555">
+        <state line="14" column="20" selection-start="282" selection-end="282" vertical-scroll-proportion="0.46153846" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
