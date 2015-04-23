@@ -20,7 +20,7 @@ class EmailProcessor
 
     def create_comment
 
-       Inmail.create(from: email.from, body: email.body)
+       Inmail.create(from: email.from, body: email.body, to: email.to)
 
 
     end

@@ -33,19 +33,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/inmails/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="17" selection-start="350" selection-end="350" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="1200">
+            <state line="58" column="0" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.5916473" vertical-offset="615" max-vertical-offset="1230">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="email_processor.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="email_processor.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/email_processor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="412" selection-end="412" vertical-scroll-proportion="0.7912088" vertical-offset="0" max-vertical-offset="525">
+            <state line="5" column="27" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="5" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
@@ -93,7 +102,6 @@
         <option value="$PROJECT_DIR$/app/views/outmails/index.html.erb" />
         <option value="$PROJECT_DIR$/app/mailers/application_mailer.rb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/inmails/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/outmails/home.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/scrolling-nav.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
@@ -105,6 +113,7 @@
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/lib/email_processor.rb" />
+        <option value="$PROJECT_DIR$/app/views/inmails/index.html.erb" />
       </list>
     </option>
   </component>
@@ -904,13 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="5" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.7032967" vertical-offset="340" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/application_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.13186814" vertical-offset="0" max-vertical-offset="455">
@@ -925,16 +927,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/inmails/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="350" selection-end="350" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="1200">
+        <state line="44" column="5" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/email_processor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="412" selection-end="412" vertical-scroll-proportion="0.7912088" vertical-offset="0" max-vertical-offset="525">
+        <state line="5" column="27" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/inmails/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.5916473" vertical-offset="615" max-vertical-offset="1230">
           <folding />
         </state>
       </provider>
