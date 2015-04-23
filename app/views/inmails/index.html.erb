@@ -45,10 +45,10 @@
                 <tbody>
                 <% @inmails.each do |inmail| %>
 
-                   <% if inmail.to.include?(@current_user.zmail) %>
 
                     <tr>
 
+                      <td><%= inmail.to %></td>
 
                       <td><%= inmail.from %></td>
                       <td><%= inmail.body %></td>
@@ -58,7 +58,6 @@
                     </tr>
 
 
-                      <% end %>
                 <% end %>
                 </tbody>
 
